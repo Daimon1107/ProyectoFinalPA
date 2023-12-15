@@ -11,12 +11,12 @@ using FontAwesome.Sharp;
 
 namespace ArquitecturaPresentacion
 {
-    public partial class Form1 : Form
+    public partial class Form_Principal : Form
     {
 
         private IconButton currentBtn;
         private Panel leftBorderBtn;
-        public Form1()
+        public Form_Principal()
         {
             InitializeComponent();
             leftBorderBtn = new Panel();
